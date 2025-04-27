@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="fondo1">
+        <audio class="musica" controls src="Enamorados - Tercer Cielo - Video de letras oficial.mp3" type="audio/mpeg"></audio>
+    </div>
+    <div class="fondo2">
+
+    </div>
+    <div class="fondo3">
+
+            <div class="container">
+             
+                <div class="countdow">
+                    <div>
+                        <span id="dias">320</span>
+                        <p>dias</p>
+                    </div>
+        
+                    <div>
+                        <span id="horas">24</span>
+                        <p>Horas</p>
+                    </div>
+        
+                    <div>
+                        <span id="minutos">20</span>
+                        <p>minutos</p>
+                    </div>
+        
+                    <div>
+                        <span id="segundos">50</span>
+                        <p>Segundos</p>
+                    </div>
+                </div>
+            </div>
+
+            <a target="_blank" href="https://www.google.com/maps/place/IGLESIA+SAN+VICENTE/@-13.7099306,-76.2032714,19z/data=!4m10!1m2!2m1!1siglesia+san+vicente+plaza+de+armas+psico+pisco!3m6!1s0x91106500665069a5:0xaa2c3c4f7ed71167!8m2!3d-13.7099419!4d-76.202344!15sCi5pZ2xlc2lhIHNhbiB2aWNlbnRlIHBsYXphIGRlIGFybWFzIHBzaWNvIHBpc2NvWjAiLmlnbGVzaWEgc2FuIHZpY2VudGUgcGxhemEgZGUgYXJtYXMgcHNpY28gcGlzY2-SAQZjaHVyY2iaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUmtaMHRtVTNWblJSQUKqAYUBEAEqLCIoaWdsZXNpYSBzYW4gdmljZW50ZSBwbGF6YSBkZSBhcm1hcyBwc2ljbygOMh8QASIbslRUsP-SBy9eg__wWVmqLB40zQrpCSbWpFusMjIQAiIuaWdsZXNpYSBzYW4gdmljZW50ZSBwbGF6YSBkZSBhcm1hcyBwc2ljbyBwaXNjb-ABAPoBBAgAEDQ!16s%2Fg%2F11vrxv2jyk?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+                <img class="ubicacion1" src="ubicacion1.png" alt="">
+            </a>
+
+    </div>
+    <div class="fondo4">
+        <a target="_blank" href="https://www.google.com/maps/place/Fundo+El+Valle+Dorado+-+Campestre/@-13.7139713,-76.1583662,18z/data=!3m1!4b1!4m6!3m5!1s0x91106618e51986dd:0xd5fd648c7af4b37a!8m2!3d-13.7139729!4d-76.1576007!16s%2Fg%2F11csbfmytw?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+            <img class="ubicacion2" src="ubicacion1.png" alt="">
+        </a>
+    </div>
+    <div class="fondo5">
+        
+    </div>
+
+    <style>
+
+    
+
+    </style>
+
+    <div class="fondo6">
+        <div class="confirmacion">
+            <a target="_blank" href="https://wa.me/51995494898?text=urlencodedtext(confirmo)"><img class="anais" src="Anais.png" alt=""></a> 
+            <a target="_blank" href="https://wa.me/51921576971"><img class="jose" src="Jose.png" alt=""></a>
+        </div>
+    </div>
+
+    <script>
+        function actualizarcountdow(){
+     const fechaActual = new Date();
+     const fechaDato = new Date('2025/06/28');
+     const diferencia = fechaDato.getTime() - fechaActual.getTime();
+ 
+     const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+     const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+     const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+     const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+ 
+     document.getElementById('dias').textContent = dias;
+     document.getElementById('horas').textContent = horas;
+     document.getElementById('minutos').textContent = minutos;
+     document.getElementById('segundos').textContent = segundos;
+ 
+ }
+ 
+ setInterval(actualizarcountdow, 1000);
+ actualizarcountdow();
+ 
+ 
+     </script>
+
+    
+</body>
+</html>

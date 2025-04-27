@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fondo1{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    background-image: url(Fondo1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.musica{
+    margin-top: 310px;
+    margin-left: 50px;
+}
+
+.fondo2{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    background-image: url(Fondo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fondo3{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    background-image: url(Fondo3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ubicacion1{
+    width: 140px;
+    height: 40px;
+    margin-top: 490px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+.fondo4{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    background-image: url(Fondo4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ubicacion2{
+    width: 150px;
+    height: 40px;
+    margin-top: 180px;
+    margin-left: 120px;
+}
+
+.fondo5{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    background-image: url(Fondo5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fondo6{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    background-image: url(Fondo6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 265px;
+    position: absolute;
+    margin-left: 50px;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container span{
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.countdow{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.confirmacion{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    margin-top: 450px;
+    margin-left: 25px;
+}
+
+.anais{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.jose{
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+}
